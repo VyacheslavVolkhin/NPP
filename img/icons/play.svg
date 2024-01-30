@@ -1,0 +1,20 @@
+<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Play">
+<g id="Ellipse 36" filter="url(#filter0_d_69_276)">
+<circle cx="29.1476" cy="25.333" r="21" fill="white"/>
+</g>
+<path id="Play_icon" d="M25.7876 31.2131V19.4531L34.1876 25.3331L25.7876 31.2131Z" fill="#151D28"/>
+</g>
+<defs>
+<filter id="filter0_d_69_276" x="0.147583" y="0.333008" width="58" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_69_276"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_69_276" result="shape"/>
+</filter>
+</defs>
+</svg>
