@@ -1427,10 +1427,12 @@ body {
   overflow: hidden;
   background-color: #fff;
   padding: 15px;
+  border: 1px solid var(--clr-bg);
   transition: all ease 0.8s;
 }
 .item-tile-lead.tile-second {
   background-color: var(--clr-base);
+  border-color: var(--clr-base);
   color: #fff;
 }
 .item-tile-lead .tile-photo {
@@ -1467,6 +1469,7 @@ body {
   color: var(--clr-base);
   transform: scale(1.1);
   z-index: 2;
+  border-color: var(--clr-base);
 }
 .item-tile-lead .btn-action-ico {
   width: 24px;
