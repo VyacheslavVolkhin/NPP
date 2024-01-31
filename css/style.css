@@ -1435,6 +1435,9 @@ body {
   border-color: var(--clr-base);
   color: #fff;
 }
+.item-tile-lead.tile-second:hover {
+  color: #fff;
+}
 .item-tile-lead .tile-photo {
   aspect-ratio: inherit;
   position: absolute;
@@ -1443,6 +1446,11 @@ body {
   left: 0;
   right: 0;
   border-radius: 24px;
+}
+.item-tile-lead .tile-title,
+.item-tile-lead .tile-title-info {
+  transform-origin: 0 100%;
+  transition: all ease 0.2s;
 }
 .item-tile-lead .tile-top-title {
   display: block;
@@ -1454,12 +1462,15 @@ body {
   margin-bottom: 10px;
   text-transform: none;
   font-weight: 400;
+  transform-origin: 0 0;
+  transition: all ease 0.2s;
 }
 .item-tile-lead .tile-title-wrap {
   display: block;
   width: 100%;
   -ms-flex-negative: 0s;
       flex-shrink: 0s;
+  padding-right: 30px;
 }
 .item-tile-lead .tile-title-info {
   display: block;
@@ -1467,9 +1478,13 @@ body {
 }
 .item-tile-lead:hover {
   color: var(--clr-base);
-  transform: scale(1.1);
   z-index: 2;
   border-color: var(--clr-base);
+}
+.item-tile-lead:hover .tile-title,
+.item-tile-lead:hover .tile-title-info,
+.item-tile-lead:hover .tile-top-title {
+  transform: scale(1.1);
 }
 .item-tile-lead .btn-action-ico {
   width: 24px;

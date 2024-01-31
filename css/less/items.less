@@ -343,6 +343,9 @@
 		background-color: var(--clr-base);
 		border-color: var(--clr-base);
 		color: #fff;
+		&:hover {
+			color: #fff;
+		}
 	}
 	.tile-photo {
 		aspect-ratio: inherit;
@@ -352,6 +355,10 @@
 		left: 0;
 		right: 0;
 		border-radius: 24px;
+	}
+	.tile-title, .tile-title-info {
+		transform-origin: 0 100%;
+		transition: all ease 0.2s;
 	}
 	.tile-top-title {
 		display: block;
@@ -364,11 +371,14 @@
 		margin-bottom: 10px;
 		text-transform: none;
 		font-weight: 400;
+		transform-origin: 0 0;
+		transition: all ease 0.2s;
 	}
 	.tile-title-wrap {
 		display: block;
 		width: 100%;
 		flex-shrink: 0s;
+		padding-right: 30px;
 	}
 	.tile-title-info {
 		display: block;
@@ -376,9 +386,11 @@
 	}
 	&:hover {
 		color: var(--clr-base);
-		transform: scale(1.1);
 		z-index: 2;
 		border-color: var(--clr-base);
+		.tile-title, .tile-title-info, .tile-top-title {
+			transform: scale(1.1)
+		}
 	}
 	.btn-action-ico {
 		width: 24px;height: 24px;
