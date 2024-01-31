@@ -1427,7 +1427,7 @@ body {
   overflow: hidden;
   background-color: #fff;
   padding: 15px;
-  transition: all ease 0.2s;
+  transition: all ease 0.8s;
 }
 .item-tile-lead.tile-second {
   background-color: var(--clr-base);
@@ -1465,6 +1465,8 @@ body {
 }
 .item-tile-lead:hover {
   color: var(--clr-base);
+  transform: scale(1.1);
+  z-index: 2;
 }
 .item-tile-lead .btn-action-ico {
   width: 24px;
